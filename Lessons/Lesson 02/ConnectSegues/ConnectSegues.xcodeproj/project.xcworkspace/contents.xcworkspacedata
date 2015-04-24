@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Pictures">
+      <FileRef
+         location = "group:ContactConstantin.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:ContactMonica.JPG">
+      </FileRef>
+      <FileRef
+         location = "group:ContactPatrick.JPG">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "self:ConnectSegues.xcodeproj">
+   </FileRef>
+</Workspace>
