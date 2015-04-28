@@ -13,6 +13,7 @@
 		D95B48B91AE9C05B00903C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95B48B81AE9C05B00903C03 /* Images.xcassets */; };
 		D95B48BC1AE9C05B00903C03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95B48BA1AE9C05B00903C03 /* LaunchScreen.xib */; };
 		D95B48C81AE9C05B00903C03 /* ConnectSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B48C71AE9C05B00903C03 /* ConnectSeguesTests.swift */; };
+		D973CEB01AEB033900C3F49F /* ContactConstantin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D973CEAF1AEB033900C3F49F /* ContactConstantin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D95B48C11AE9C05B00903C03 /* ConnectSeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSeguesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95B48C61AE9C05B00903C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95B48C71AE9C05B00903C03 /* ConnectSeguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSeguesTests.swift; sourceTree = "<group>"; };
+		D973CEAF1AEB033900C3F49F /* ContactConstantin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ContactConstantin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D95B48AE1AE9C05B00903C03 /* ConnectSegues */ = {
 			isa = PBXGroup;
 			children = (
+				D973CEAE1AEB031000C3F49F /* Pictures */,
 				D95B48B11AE9C05B00903C03 /* AppDelegate.swift */,
 				D95B48B31AE9C05B00903C03 /* ViewController.swift */,
 				D95B48B51AE9C05B00903C03 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				D95B48C61AE9C05B00903C03 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D973CEAE1AEB031000C3F49F /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				D973CEAF1AEB033900C3F49F /* ContactConstantin.jpg */,
+			);
+			name = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95B48B71AE9C05B00903C03 /* Main.storyboard in Resources */,
+				D973CEB01AEB033900C3F49F /* ContactConstantin.jpg in Resources */,
 				D95B48BC1AE9C05B00903C03 /* LaunchScreen.xib in Resources */,
 				D95B48B91AE9C05B00903C03 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +421,7 @@
 				D95B48CD1AE9C05B00903C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95B48CE1AE9C05B00903C03 /* Build configuration list for PBXNativeTarget "ConnectSeguesTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				D95B48D01AE9C05B00903C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
