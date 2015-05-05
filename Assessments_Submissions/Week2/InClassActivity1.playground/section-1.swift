@@ -2,6 +2,7 @@
 
 import Foundation
 
+
 // TO DO 1: Create two variables, name and age. Name is a string, age is an integer.
 
 // TODO: Print "Hello {whatever the value of name is}, you are {whatever the value of age is} years old!"

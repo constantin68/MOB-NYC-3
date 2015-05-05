@@ -296,7 +296,7 @@ Email and Password, please!</string>
                                 <rect key="frame" x="16" y="146" width="288" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">My GOALS as a Developer are very simple: 1. Create an Intuitive Application, that will just work in just 3 simple steps 2. Create a passionate team, lead them through good times &amp; bad times, to success! 3. Create and develop a product that will become a recognizable name and service 4. Gain a large user base within the first 1st Year, that will love to contribute back</string>
+                                <mutableString key="text">My GOALS as a Developer are very simple: 1. Create an Intuitive Application, that will just work in 3 simple steps 2. Create a passionate team, lead them through good times &amp; bad times, to success! 3. Create and develop a product that will become a recognizable name and service 4. Gain a large user base within the first 1st Year, that will love to contribute back</mutableString>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
