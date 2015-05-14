@@ -60,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="475.5" y="1023.5"/>
+            <point key="canvasLocation" x="407.5" y="1023.5"/>
         </scene>
         <!--Sum View Controller-->
         <scene sceneID="uES-MD-qwh">
@@ -103,6 +103,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="iQT-pJ-RbI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="firstText" destination="Djz-jb-Xtu" id="niX-62-hWB"/>
                         <outlet property="secondLabel" destination="8bb-Gf-ghO" id="v8U-Ls-1G4"/>
@@ -111,13 +112,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CC-Y0-JKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1009.5" y="1023.5"/>
+            <point key="canvasLocation" x="841.5" y="1023.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cOl-G5-G6W">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZFZ-DK-Bei" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ufy-Zi-Ly9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -129,7 +131,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tks-DG-nKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2.6666666666666665" y="987.37333333333333"/>
+            <point key="canvasLocation" x="0.5" y="1023.5"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

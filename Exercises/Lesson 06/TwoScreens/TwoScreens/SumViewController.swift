@@ -37,4 +37,4 @@ class SumViewController: UIViewController {
 
 //let numberASString = "3.14"
 //// How to convert this into a Double??
-//let double = NSString(string: numberASString).doubleValue
+//let double = (NSString(string: numberASString).doubleValue).description
