@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B685C31B057DAA00AA8456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B685C21B057DAA00AA8456 /* AppDelegate.swift */; };
+		D9B685C51B057DAA00AA8456 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B685C41B057DAA00AA8456 /* MasterViewController.swift */; };
+		D9B685C71B057DAA00AA8456 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B685C61B057DAA00AA8456 /* DetailViewController.swift */; };
+		D9B685CA1B057DAA00AA8456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B685C81B057DAA00AA8456 /* Main.storyboard */; };
+		D9B685CC1B057DAA00AA8456 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B685CB1B057DAA00AA8456 /* Images.xcassets */; };
+		D9B685CF1B057DAA00AA8456 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B685CD1B057DAA00AA8456 /* LaunchScreen.xib */; };
+		D9B685DB1B057DAA00AA8456 /* AddDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B685DA1B057DAA00AA8456 /* AddDogsTests.swift */; };
+		D9B685EB1B05859700AA8456 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B685EA1B05859700AA8456 /* ModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9B685D51B057DAA00AA8456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9B685B51B057DAA00AA8456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B685BC1B057DAA00AA8456;
+			remoteInfo = AddDogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9B685BD1B057DAA00AA8456 /* AddDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B685C11B057DAA00AA8456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B685C21B057DAA00AA8456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9B685C41B057DAA00AA8456 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D9B685C61B057DAA00AA8456 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D9B685C91B057DAA00AA8456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9B685CB1B057DAA00AA8456 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9B685CE1B057DAA00AA8456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9B685D41B057DAA00AA8456 /* AddDogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddDogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B685D91B057DAA00AA8456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B685DA1B057DAA00AA8456 /* AddDogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogsTests.swift; sourceTree = "<group>"; };
+		D9B685EA1B05859700AA8456 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B685BA1B057DAA00AA8456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B685D11B057DAA00AA8456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B685B41B057DAA00AA8456 = {
+			isa = PBXGroup;
+			children = (
+				D9B685BF1B057DAA00AA8456 /* AddDogs */,
+				D9B685D71B057DAA00AA8456 /* AddDogsTests */,
+				D9B685BE1B057DAA00AA8456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B685BE1B057DAA00AA8456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B685BD1B057DAA00AA8456 /* AddDogs.app */,
+				D9B685D41B057DAA00AA8456 /* AddDogsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B685BF1B057DAA00AA8456 /* AddDogs */ = {
+			isa = PBXGroup;
+			children = (
+				D9B685C21B057DAA00AA8456 /* AppDelegate.swift */,
+				D9B685C41B057DAA00AA8456 /* MasterViewController.swift */,
+				D9B685C61B057DAA00AA8456 /* DetailViewController.swift */,
+				D9B685C81B057DAA00AA8456 /* Main.storyboard */,
+				D9B685EA1B05859700AA8456 /* ModalViewController.swift */,
+				D9B685CB1B057DAA00AA8456 /* Images.xcassets */,
+				D9B685CD1B057DAA00AA8456 /* LaunchScreen.xib */,
+				D9B685C01B057DAA00AA8456 /* Supporting Files */,
+			);
+			path = AddDogs;
+			sourceTree = "<group>";
+		};
+		D9B685C01B057DAA00AA8456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B685C11B057DAA00AA8456 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9B685D71B057DAA00AA8456 /* AddDogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9B685DA1B057DAA00AA8456 /* AddDogsTests.swift */,
+				D9B685D81B057DAA00AA8456 /* Supporting Files */,
+			);
+			path = AddDogsTests;
+			sourceTree = "<group>";
+		};
+		D9B685D81B057DAA00AA8456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B685D91B057DAA00AA8456 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B685BC1B057DAA00AA8456 /* AddDogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B685DE1B057DAA00AA8456 /* Build configuration list for PBXNativeTarget "AddDogs" */;
+			buildPhases = (
+				D9B685B91B057DAA00AA8456 /* Sources */,
+				D9B685BA1B057DAA00AA8456 /* Frameworks */,
+				D9B685BB1B057DAA00AA8456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddDogs;
+			productName = AddDogs;
+			productReference = D9B685BD1B057DAA00AA8456 /* AddDogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9B685D31B057DAA00AA8456 /* AddDogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B685E11B057DAA00AA8456 /* Build configuration list for PBXNativeTarget "AddDogsTests" */;
+			buildPhases = (
+				D9B685D01B057DAA00AA8456 /* Sources */,
+				D9B685D11B057DAA00AA8456 /* Frameworks */,
+				D9B685D21B057DAA00AA8456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9B685D61B057DAA00AA8456 /* PBXTargetDependency */,
+			);
+			name = AddDogsTests;
+			productName = AddDogsTests;
+			productReference = D9B685D41B057DAA00AA8456 /* AddDogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B685B51B057DAA00AA8456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Constantin;
+				TargetAttributes = {
+					D9B685BC1B057DAA00AA8456 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D9B685D31B057DAA00AA8456 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D9B685BC1B057DAA00AA8456;
+					};
+				};
+			};
+			buildConfigurationList = D9B685B81B057DAA00AA8456 /* Build configuration list for PBXProject "AddDogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B685B41B057DAA00AA8456;
+			productRefGroup = D9B685BE1B057DAA00AA8456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B685BC1B057DAA00AA8456 /* AddDogs */,
+				D9B685D31B057DAA00AA8456 /* AddDogsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B685BB1B057DAA00AA8456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B685CA1B057DAA00AA8456 /* Main.storyboard in Resources */,
+				D9B685CF1B057DAA00AA8456 /* LaunchScreen.xib in Resources */,
+				D9B685CC1B057DAA00AA8456 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B685D21B057DAA00AA8456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B685B91B057DAA00AA8456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B685EB1B05859700AA8456 /* ModalViewController.swift in Sources */,
+				D9B685C71B057DAA00AA8456 /* DetailViewController.swift in Sources */,
+				D9B685C51B057DAA00AA8456 /* MasterViewController.swift in Sources */,
+				D9B685C31B057DAA00AA8456 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B685D01B057DAA00AA8456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B685DB1B057DAA00AA8456 /* AddDogsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9B685D61B057DAA00AA8456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9B685BC1B057DAA00AA8456 /* AddDogs */;
+			targetProxy = D9B685D51B057DAA00AA8456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9B685C81B057DAA00AA8456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B685C91B057DAA00AA8456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9B685CD1B057DAA00AA8456 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B685CE1B057DAA00AA8456 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B685DC1B057DAA00AA8456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9B685DD1B057DAA00AA8456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B685DF1B057DAA00AA8456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddDogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9B685E01B057DAA00AA8456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddDogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9B685E21B057DAA00AA8456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddDogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddDogs.app/AddDogs";
+			};
+			name = Debug;
+		};
+		D9B685E31B057DAA00AA8456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddDogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddDogs.app/AddDogs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B685B81B057DAA00AA8456 /* Build configuration list for PBXProject "AddDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B685DC1B057DAA00AA8456 /* Debug */,
+				D9B685DD1B057DAA00AA8456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B685DE1B057DAA00AA8456 /* Build configuration list for PBXNativeTarget "AddDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B685DF1B057DAA00AA8456 /* Debug */,
+				D9B685E01B057DAA00AA8456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9B685E11B057DAA00AA8456 /* Build configuration list for PBXNativeTarget "AddDogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B685E21B057DAA00AA8456 /* Debug */,
+				D9B685E31B057DAA00AA8456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B685B51B057DAA00AA8456 /* Project object */;
+}
