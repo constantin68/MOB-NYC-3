@@ -9,6 +9,7 @@
 import UIKit
 
 class ModalViewController: UIViewController {
+    
     @IBOutlet weak var myTextField: UITextField!
 
     @IBAction func onDismissTapped(sender: AnyObject) {
