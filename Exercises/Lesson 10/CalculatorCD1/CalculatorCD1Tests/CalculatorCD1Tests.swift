@@ -1,15 +1,15 @@
 //
-//  UnitConverterTests.swift
-//  UnitConverterTests
+//  CalculatorCD1Tests.swift
+//  CalculatorCD1Tests
 //
-//  Created by William Martin on 5/21/15.
-//  Copyright (c) 2015 Anomalus. All rights reserved.
+//  Created by Monica on 5/28/15.
+//  Copyright (c) 2015 Constantin. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class UnitConverterTests: XCTestCase {
+class CalculatorCD1Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

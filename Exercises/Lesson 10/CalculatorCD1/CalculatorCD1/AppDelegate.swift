@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  UnitConverter
+//  CalculatorCD1
 //
-//  Created by William Martin on 5/21/15.
-//  Copyright (c) 2015 Anomalus. All rights reserved.
+//  Created by Monica on 5/28/15.
+//  Copyright (c) 2015 Constantin. All rights reserved.
 //
 
 import UIKit
