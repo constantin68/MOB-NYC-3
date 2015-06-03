@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AutoLayoutFace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhz-Cb-g49" customClass="LeftEye">
+                                <rect key="frame" x="26" y="30" width="100" height="57.5"/>
+                                <color key="backgroundColor" red="0.40756304140883792" green="0.65534206330286948" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Uhz-Cb-g49" secondAttribute="height" multiplier="159:91" id="EQq-CJ-tbk"/>
+                                    <constraint firstAttribute="width" constant="100" id="xIb-fW-ZOc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BFG-qI-JMY" customClass="RightEye">
+                                <rect key="frame" x="475" y="30" width="100" height="57.5"/>
+                                <color key="backgroundColor" red="0.3411764705882353" green="0.57647058823529407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BFG-qI-JMY" secondAttribute="trailing" constant="9" id="9rf-hf-U9u"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="height" secondItem="BFG-qI-JMY" secondAttribute="height" id="HHy-UT-6dO"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="ZQI-JK-sif"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="jXX-VB-LiJ"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="width" secondItem="BFG-qI-JMY" secondAttribute="width" id="oAh-D1-enS"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="top" secondItem="BFG-qI-JMY" secondAttribute="bottom" constant="-57.5" id="rzw-Wl-BWU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="419" y="372"/>
+        </scene>
+    </scenes>
+</document>
