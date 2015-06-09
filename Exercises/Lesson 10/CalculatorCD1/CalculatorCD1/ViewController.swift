@@ -13,11 +13,13 @@ class ViewController: UIViewController {
 
 
     var digitTapped: String = ""
-    
+    @IBOutlet var inputLabel: UILabel!
     
     
     func userInputDigit(digit: Int) {
-        
+
+        // add the next pressed button to the end of the string on the inputLabel
+        inputLabel.text! += String(digit)
     }
     
     @IBAction func on7Tapped(sender: UIButton) {
@@ -44,7 +46,7 @@ class ViewController: UIViewController {
         userInputDigit(6)
     }
     
-    @IBAction func on1Tapped(sender: AnyObject) {
+    @IBAction func on1Tapped(sender: UIButton) {
         userInputDigit(1)
     }
     
@@ -61,7 +63,6 @@ class ViewController: UIViewController {
     }
     
     
-    @IBOutlet var inputLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

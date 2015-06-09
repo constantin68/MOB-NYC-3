@@ -27,24 +27,38 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BFG-qI-JMY" customClass="RightEye">
-                                <rect key="frame" x="475" y="30" width="100" height="57.5"/>
+                                <rect key="frame" x="474" y="30" width="100" height="57.5"/>
                                 <color key="backgroundColor" red="0.3411764705882353" green="0.57647058823529407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpD-Zv-C6a" customClass="RedNose">
+                                <rect key="frame" x="250" y="137" width="100" height="174"/>
+                                <color key="backgroundColor" red="1" green="0.29259355543480892" blue="0.2750633917987414" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sux-4z-2TG" customClass="Mouth">
+                                <rect key="frame" x="136" y="482.5" width="328" height="57.5"/>
+                                <color key="backgroundColor" red="1" green="0.78148622272196644" blue="0.10279489450450474" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="BFG-qI-JMY" secondAttribute="trailing" constant="9" id="9rf-hf-U9u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BFG-qI-JMY" secondAttribute="trailing" constant="10" id="9rf-hf-U9u"/>
                             <constraint firstItem="Uhz-Cb-g49" firstAttribute="height" secondItem="BFG-qI-JMY" secondAttribute="height" id="HHy-UT-6dO"/>
+                            <constraint firstAttribute="centerY" secondItem="vpD-Zv-C6a" secondAttribute="centerY" constant="75" id="Mwi-q7-Fly"/>
+                            <constraint firstItem="Sux-4z-2TG" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" constant="-60" id="Vmc-3m-8OB"/>
                             <constraint firstItem="Uhz-Cb-g49" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="ZQI-JK-sif"/>
+                            <constraint firstItem="Sux-4z-2TG" firstAttribute="leading" secondItem="Uhz-Cb-g49" secondAttribute="trailing" constant="10" id="afC-wZ-t7m"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="height" secondItem="Sux-4z-2TG" secondAttribute="height" id="awd-As-Rep"/>
+                            <constraint firstAttribute="centerX" secondItem="vpD-Zv-C6a" secondAttribute="centerX" constant="1" id="gY7-6D-Shr"/>
+                            <constraint firstItem="BFG-qI-JMY" firstAttribute="leading" secondItem="Sux-4z-2TG" secondAttribute="trailing" constant="10" id="iGu-Z5-RYV"/>
                             <constraint firstItem="Uhz-Cb-g49" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="jXX-VB-LiJ"/>
                             <constraint firstItem="Uhz-Cb-g49" firstAttribute="width" secondItem="BFG-qI-JMY" secondAttribute="width" id="oAh-D1-enS"/>
-                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="top" secondItem="BFG-qI-JMY" secondAttribute="bottom" constant="-57.5" id="rzw-Wl-BWU"/>
+                            <constraint firstItem="Uhz-Cb-g49" firstAttribute="top" secondItem="BFG-qI-JMY" secondAttribute="bottom" constant="-58" id="rzw-Wl-BWU"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="419" y="372"/>
+            <point key="canvasLocation" x="0.0" y="65"/>
         </scene>
     </scenes>
 </document>
